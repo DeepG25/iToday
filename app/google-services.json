@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "467039404227",
+    "firebase_url": "https://itoday-80127.firebaseio.com",
+    "project_id": "itoday-80127",
+    "storage_bucket": "itoday-80127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467039404227:android:78991a5b493c781c57e276",
+        "android_client_info": {
+          "package_name": "com.example.itoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467039404227-n3jh41ala8805j9jcnvo2k3q6va7t0im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.itoday",
+            "certificate_hash": "2fa66642c0d174e327aa8c1584a6ca76d05bac1f"
+          }
+        },
+        {
+          "client_id": "467039404227-7j9fojpatpqs89f76epucp82n88d0k79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACvXieZ4oYfET6MgebSKYjvNXchwXkYj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467039404227-7j9fojpatpqs89f76epucp82n88d0k79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

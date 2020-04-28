@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/signup_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alef"
+        android:text="Sign Up"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/desc_text"
+        android:layout_below="@id/signup_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alef"
+        android:text="Create a new account here."
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/email_si_text"
+        android:layout_below="@id/desc_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/alef"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/password_si_text"
+        android:layout_below="@id/email_si_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/alef"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/confirm_password_si_text"
+        android:layout_below="@id/password_si_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/alef"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/signup_si_btn"
+        android:layout_below="@id/confirm_password_si_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/alef"
+        android:textSize="15dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:text="Developed by - \nDrashti Godhani (BE17F06F016)\nRadhika Bobade (BE17F06F006)"/>
+
+</RelativeLayout>
